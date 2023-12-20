@@ -1,0 +1,18 @@
+body{
+    background-image: url(../stylesfolder/about-background-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+    height: 500px;
+    width: 1400px;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.Center-column-wrapper{
+   background: rgb(0,100, 0);
+   text-align: center;
+}

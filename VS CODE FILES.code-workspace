@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"vscode-edge-devtools.webhintInstallNotification": true,
+		"vscode-edge-devtools.webRoot": "${workspaceFolder)",
+		"vscode-edge-devtools.timeout": 10000000,
+		"vscode-edge-devtools.sourceMaps": false,
+		"vscode-edge-devtools.sourceMapPathOverrides": {
+			
+			"webpack:///./*": "${webRoot}/*",
+			"webpack:///src/*": "${webRoot}/*",
+			"webpack:///*": "*",
+			"webpack:///./~/*": "${webRoot}/node_modules/*",
+			"webpack://*": "${webRoot}/*",
+			"meteor://💻app/*": "${webRoot}/*"
+		}
+	}
+}

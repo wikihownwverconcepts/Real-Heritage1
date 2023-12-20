@@ -1,0 +1,79 @@
+  .navigation-wrapper{
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    justify-content:space-between;
+    align-content:center;
+    margin:0px 0px 0px 0px;
+    padding: 60px 100px}
+
+.navigation-wrapper>.left-column-wrapper>.icon img{
+  height: 50px;
+  margin-bottom: 0%;
+  width: 50px;
+  color: red;
+  background-color: blue;
+}
+
+.navigation-wrapper>.left-column-wrapper{
+  display: grid;
+  justify-content: space-around;
+  align-content: center;
+  grid-template-columns: 1fr;
+}
+
+.navigation-wrapper>.left-column-wrapper>.icon img:hover{
+  background-color: red;
+  transition: 0.5s;
+  width: 60px;
+  align-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+
+.navigation-wrapper>.center-column-wrapper{
+  display: grid;
+  grid-template-columns: 2fr;
+  align-content: center;
+}
+
+.navigation-wrapper>.center-column-wrapper>.logo img{
+  width: 150px;
+  padding: 0px 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.navigation-wrapper>.center-column-wrapper>.nav-links-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.navigation-wrapper>.center-column-wrapper>.nav-links-wrapper>.nav-links a{
+  text-decoration: none;
+  color: orange;
+}
+
+
+
+.navigation-wrapper>.center-column-wrapper>.nav-links-wrapper>.nav-links a:hover{
+  text-decoration: none;
+  color: red;
+  transition: 0.5s;
+  width: 200px;
+  text-align: right;
+}
+
+.navigation-wrapper>.right-column-wrapper{
+  display:flex;
+  justify-content: space-between;
+  align-content: end;
+}
+
+.navigation-wrapper>.right-column-wrapper>.icon img{
+  height: 50px;
+  width: 50px;
+  margin-bottom:  0px; 
+  padding: 0%;
+}
